@@ -1,0 +1,20 @@
+html_document:
+  theme: yeti
+  self_contained: false
+  lib_dir: public/libs
+  fig_caption: yes
+  fig_width: 7.5
+  fig_height: 5.25
+  fig_retina: 1
+  highlight: pygments
+  toc: yes
+  toc_depth: 3
+  pandoc_args: [
+    "--smart"
+  ]
+  css:
+    - libs/custom.css
+  includes:
+    in_header: include/in_header.html
+    before_body: include/before_body.html
+    after_body: include/after_body.html

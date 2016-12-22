@@ -1,0 +1,41 @@
+---
+title: Resources for Network Analysis
+...
+
+## Sample data sets
+
+[China Dimensions data collection](http://sedac.ciesin.org/data/collection/cddc)
+
+[Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
+
+[Gephi datasets](https://github.com/gephi/gephi/wiki/Datasets)
+
+Lincoln Mullen, [historydata: Datasets for Historians](https://github.com/ropensci/historydata)
+
+## Data repositories
+
+[Datahub](http://datahub.io/).
+
+[Data.gov](http://www.data.gov/)
+
+[Data.gov.uk](http://data.gov.uk/)
+
+## Tutorials
+
+Miriam Posner, [Cytoscape tutorials](https://github.com/miriamposner/cytoscape_tutorials)
+
+## Writing on networks
+
+Peter Bearman, James Moody, and Robert Faris, "Networks and History" *Complexity* 8 (2012): 61–71.
+
+Shawn Graham, Ian Milligan, and Scott Weingart, *The Historian's Macroscope: Big Digital History* (Imperial College Press, 2016). See especially [Network Analysis](http://www.themacroscope.org/?page_id=889) and [Network Analysis Fundamentals](http://www.themacroscope.org/?page_id=892).
+
+Kieran Healy, "[Using Metadata to Find Paul Revere](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/") (June 9, 2013)
+
+Manuel Lima, *[The Book of Trees: Visualizing Branches of Knowledge](http://www.bookoftrees.info/bt/)* (Princeton Architectural Press, 2013).
+
+Franco Moretti, *[Graphs, Maps, and Trees: Abstract Models for Literary History](https://www.versobooks.com/books/261-graphs-maps-trees)* (Verso, 2005).
+
+Scott Weingart's series on "[Networks Demystified](http://scottbot.net/tag/networks-demystified/)".
+
+The [Historical Network Research bibliography](http://historicalnetworkresearch.org/resources/bibliography/).

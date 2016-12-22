@@ -1,0 +1,50 @@
+---
+title: Advanced Gephi
+---
+
+## Spatial Networks
+
+Download these datasets, courtesey of Martin Grandjean: [nodes table](http://www.martingrandjean.ch/wp-content/uploads/2015/10/Nodes1.csv) and [edges table](http://www.martingrandjean.ch/wp-content/uploads/2015/10/Edges1.csv).
+
+To make spatial networks, Gephi needs the **GeoLayout** plugin and your node attributes must include columns for Latitude and Longitude coordinates.
+
+## Dynamic Networks
+
+<p style="font-size: 1.5em; text-align: center; color: #c0392b;">
+The dynamic networks feature may be unstable, especially for very large networks. Save your work often.
+</p>
+
+As historians, our networks may not always exist as a consistent entity. They may, in other words, change over time, and we may want to explore how a network changes. Gephi provides a way for exploring a network's timeline.
+
+Note that we can refer to two types of dynamics when it comes to networks:
+
+1. **Dynamic topology** refers to nodes and edges that can change position, or appear and/or disappear through time. 
+2. **Dynamic attributes** refers to nodes, edges, and labels that might change in size and color through time, reflecting changes in the value of attributes in the data.
+
+### Generating a Dynamic Network
+
+We're going to use Gephi's built-in dynamic network generator to play around with this feature. Under `File`, select `Generate`, and select `Dynamic Graph Example...`. Once the network loads, you'll see a new toolbar along the bottom of Gephi to allow you to enable the timeline. Select that button and you'll be presented with the timeline with the entire timeframe selected by default. 
+
+![Generating a random dynamic network.](img/gephi-dynamic-generate.png)
+
+Our default timeline selects the full span of time available in the dataset. 
+
+![The default timeline.](img/gephi-dynamic-timeline.png)
+
+We can narrow our selection to a span of time we'd like to investigate.
+
+![Selecting a span of time by dragging the edges of the timeline to the area we want to examine.](img/gephi-dynamic-timeline-selection.png)
+
+You can then animate your network, either by clicking and dragging the selection box or by clicking the Play button to the left of the timeline.
+
+While this basic animation is great, it gets better: we can run layouts while the timeline is running; perform ranking operations to change color, size, edges, or labels according to changes in attributes; and we can turn on filters while the timeline is running. 
+
+## Next steps
+
+Individually or in groups, create your own network visualization.
+
+1.  Select another sample dataset from Gephi, [download one of their samples](https://github.com/gephi/gephi/wiki/Datasets), or load in your own network data.
+2. Try running some of the network statistics on the network. Select a few different ones, examine what they're doing to the network data and what the results are inferring. What do these various measures tell you about your network?
+3.  Once you have some network measures ready, try adjusting the visuals in the network---node size and color, edge colors and weights, layouts, and so on. 
+4.  Output your network as a PDF or PNG. We'll come back together, time permitting, to talk about your results.
+5.  Examine some of the [plugins for Gephi](https://marketplace.gephi.org/plugins/). You can, for example, embed latitude and longitude data for nodes and [geographically layout the network](https://marketplace.gephi.org/plugin/geolayout/). There are [many possible layout options](https://marketplace.gephi.org/plugin_categories/plugin-layout/). 

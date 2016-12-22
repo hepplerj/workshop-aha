@@ -1,0 +1,58 @@
+---
+title: Gephi Alternatives
+---
+
+## Palladio 
+
+Palladio is an [NEH Implementation grant](http://www.neh.gov/divisions/odh/grant-news/announcing-6-digital-humanities-implementation-grant-awards-july-2013) funded project developed by [Humanities+Design](http://hdlab.stanford.edu/) that seeks to design graphical interfaces for humanistic inquiry. Palladio is the result of realizing that humanities scholars needed to play a role in designing tools for research. The platform offers various ways to visualize data, including maps, networks, tables, and galleries. Among the more powerful features includes the ability to filter the data based on facets, allowing you to visualize your data based on different criteria or at different points in time.
+
+### Preparing and loading your data
+
+The easiest way to get data into Palladio is to export a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) of a spreadsheet.  CSV's can be copied and pasted into the input pane, or drag the file onto the pane for Palladio to import.
+
+![Loading data in Palladio.](http://hdlab.stanford.edu/palladio/assets/resources/CCA953052BB0485A2C6F75A3D36E6A8E.png)
+
+![Data dropped into the input pane of Palladio.](http://hdlab.stanford.edu/palladio/assets/resources/9D91FDA048353B3B13A2C97B1EE3EAD0.png)
+
+Once youve loaded the data into Palladio, it will show you the dimensions of your data as well as flag any potential issues with your data. These flags may include special characters that appear in text (like hyphens or commas), potential problems with coordinates, or issues with dates.
+
+![Data review in Palladio.](http://hdlab.stanford.edu/palladio/assets/resources/5157C75F563570400BAA24D02BD3130E.png)
+
+You can select a particular dimension to reveal the data.
+
+![Data containing multiple values in one cell.](http://hdlab.stanford.edu/palladio/assets/resources/C2FB570D1D5A1E9CA00BBE9B932E4D86.png)
+
+Once you've reviewed your data, you may want to download the Palladio project for future use. Palladio projects are not persistent, so you will need to keep a copy of the work you've done so you can load up the visualizations and data at any time.
+
+### Let's make a network
+
+Palladio makes it easy to create bivariate network graphs to illustrate relationships between two dimensions. By default, Palladio creates a force-directed layout. Palladio, however, is currently limited to this layout. The platform has no way of doing computational or algorithmic analysis of your graphs; you will need a more powerful program like Gephi or igraph to do that work.
+
+Any dimension of the data can be used as the source and target of a graph.
+
+![Dimensions in Palladio.](img/palladio-dimensions.png)
+
+For this data, if we graph the "position" of each "name," we get a graph like the one below.
+
+![Simple bivariate network graph.](img/palladio-simple.png)
+
+We can also size the nodes based on the number of connections.
+
+![Sizing nodes based on their degree.](img/palladio-node-size.png)
+
+You can also choose to drag points of the network to different areas of your screen to lay out the network that might be more meaningful to you.
+
+![Dragging nodes in Palladio.](img/palladio-drag.gif)
+
+Palladio comes with a powerful tool called facet filters, which allow you to change your data on the fly and create new visualizations. If we want to examine this network but only see females, we can select "female" from our "Gender" dimension and change how the network looks.
+
+![Facet filters in Palladio.](img/palladio-facets.png)
+
+We can also apply timelines or timespans to view changes over time.
+
+![Using Timespan in Palladio.](img/palladio-timespan.png)
+
+### Next steps
+
+Working individually or in groups, play around with Palladio and get a feel for how it ingests data, the types of data review you can do, and the sorts of visualizations you can create. Feel free to use your own data, or the sample data provided by Palladio. Create a few different visualizations. How does the facet filtering help you see different things in the data? What visualizations work best for the data you're working with? What limitations do you run into with Palladio?
+
