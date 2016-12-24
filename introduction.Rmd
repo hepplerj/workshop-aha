@@ -2,7 +2,7 @@
 title: Introduction
 ---
 
-## Maps, networks, and the digital humanities
+## Networks and digital history
 
 [Digital humanities](http://whatisdigitalhumanities.com/) offers a wide variety of methodological and pedagogical approaches, including text and data mining, network analysis, and spatial analysis. 
 

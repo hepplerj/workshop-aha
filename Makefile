@@ -32,7 +32,7 @@ public/build : $(INCLUDE_FILES) $(LIBS_FILES) $(IMG_FILES)
 deploy :
 	rsync --progress --delete -avz \
 		--exclude='.git' \
-		public/* jasonhep@jasonheppler.org:~/public_html/jasonheppler/projects/csu-workshop/
+		public/* jasonhep@jasonheppler.org:~/public_html/jasonheppler/projects/aha-workshop/
 
 .PHONY : clean
 clean :

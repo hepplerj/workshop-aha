@@ -1,5 +1,5 @@
 ---
-title: Network Literacy
+title: "Network Literacy"
 ---
 
 > "There is a tendency when using graphs to become smitten with one's own data. Even though a graph of a few hundred nodes quickly becomes unreadable, it is often satisfying for the creator because the resulting figure is elegant and complex and may be subjectively beautiful, and the notion that the creator's data is "complex" fits just fine with the creator's own interpretation of it. Graphs have a tendency of making a data set look sophisticated and important, without having solved the problem of enlightening the viewer." ---Ben Fry[^1]
@@ -22,7 +22,7 @@ library(geomnet)
 library(historydata)
 data(tudors)
 
-ggplot(data = tudors, aes(from_id = person_2, to_id = person_1)) +
+ggplot(tudors, aes(from_id = person_2, to_id = person_1)) +
   geom_net(aes(label = person_2), linewidth = 0.5,
            size = 6, ecolour = "white") +
   theme_net()
@@ -32,7 +32,7 @@ Edges connect these nodes, representing a relationship. They might connect citat
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 ggplot(data = tudors, aes(from_id = person_2, to_id = person_1)) +
-  geom_net(aes(label = person_2), linewidth = 0.5,
+  geom_net(aes(label = person_2), linewidth = 1,
            size = 6, ecolour = "grey") +
   theme_net()
 ```
@@ -41,7 +41,7 @@ Nodes and edges can also be given **attributes** to allow for descriptive and st
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 ggplot(data = tudors, aes(from_id = person_2, to_id = person_1)) +
-  geom_net(aes(label = person_2), linewidth = 0.5, size = 6, 
+  geom_net(aes(label = person_2), linewidth = 1, size = 6, 
            ecolour = ifelse(tudors$relationship == "child", "#a6cee3", "#b2df8a")) +
   theme_net()
 ```
@@ -52,7 +52,7 @@ Edges can also take on what are called **weights**, a numeric value indicating t
 data("lesmis")
 lesmisnet <- merge(lesmis$edges, lesmis$vertices, by.x="from", by.y="label", all=TRUE)
 lemisnetwork <- ggplot(data=lesmisnet, aes(from_id=from, to_id=to))
-lemisnetwork + geom_net(layout.alg = "fruchtermanreingold", vjust=-0.5, aes(label = from, linewidth = degree/5)) + theme_net()
+lemisnetwork + geom_net(layout.alg = "fruchtermanreingold", vjust=-0.5, size = 1.4, aes(label = from, linewidth = degree/5)) + theme_net()
 ```
 
 ### Directed vs undirected

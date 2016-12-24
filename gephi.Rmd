@@ -1,5 +1,5 @@
 ---
-title: Introduction to Gephi
+title: "Introduction to Gephi"
 ---
 
 ## Getting Started
@@ -31,7 +31,7 @@ Table: Example edges table.
 
 This table sets up our relationships by defining the **edges** in our network. The nodes are generated automatically based on the label of the source and/or target. If we plotted this network, we would end up with something like the below graph.
 
-```{r, message=FALSE, error=FALSE, echo=FALSE}
+```{r, message=FALSE, error=FALSE, echo=FALSE, warning=FALSE}
 library(igraph)
 library(dplyr)
 sample_data <- data_frame(source = c("Jason", "Jason", "Robert", "Andy", "Jason", "Doug", "Rebecca", "Rebecca", "Elaine", "Leisl"), 
