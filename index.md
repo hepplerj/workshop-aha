@@ -20,4 +20,4 @@ The workshop will address:
 
 - *Hour 1:* [Network Literacy](network-literacy.html)
 - *Hour 2:* [Introduction to Gephi](gephi.html) | [Advanced Gephi](advanced-gephi.html)
-- *Hour 3:* [Alternatives](palladio.html) | Next steps
+- *Hour 3:* [Advanced Gephi](advanced-gephi.html) | [Alternatives](palladio.html)
