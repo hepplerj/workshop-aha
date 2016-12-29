@@ -52,7 +52,15 @@ We can also apply timelines or timespans to view changes over time.
 
 ![Using Timespan in Palladio.](img/palladio-timespan.png)
 
-### Next steps
+## Programming Languages
+
+The most powerful method for creating networks come from programming languages such as R, Python, and Javascript. These languages allow you to control various algorithmic and aesthetic aspects of network visualizations. These include powerful libraries such as igraph and sne. We won't be digging into any languages during this workshop, but there are many resources available for getting started with programmatic approaches to visualization. See the [resources page](resources.html) for more.
+
+### R
+
+### Javascript / D3.js
+
+## Next steps
 
 Working individually or in groups, play around with Palladio and get a feel for how it ingests data, the types of data review you can do, and the sorts of visualizations you can create. Feel free to use your own data, or the sample data provided by Palladio. Create a few different visualizations. How does the facet filtering help you see different things in the data? What visualizations work best for the data you're working with? What limitations do you run into with Palladio?
 
