@@ -6,7 +6,7 @@ title: Advanced Gephi
 
 To make spatial networks, Gephi needs the **GeoLayout** plugin and your node attributes must include columns for latitude and longitude coordinates.
 
-Download these datasets, courtesey of Martin Grandjean: [nodes table](http://www.martingrandjean.ch/wp-content/uploads/2015/10/Nodes1.csv) and [edges table](http://www.martingrandjean.ch/wp-content/uploads/2015/10/Edges1.csv). Note that Grandjean's data is separated by a semicolon. You'll need to select the semicolon as the column separator in the CSV during import. **Be sure to import the nodes table first.**
+Download these datasets, courtesey of Martin Grandjean: [nodes table](data/Nodes1.csv) and [edges table](data/Edges1.csv). Note that Grandjean's data is separated by a semicolon. You'll need to select the semicolon as the column separator in the CSV during import. **Be sure to import the nodes table first.**
 
 ![Importing nodes.](img/gephi-spatial-nodes.png)
 

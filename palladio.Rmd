@@ -54,11 +54,7 @@ We can also apply timelines or timespans to view changes over time.
 
 ## Programming Languages
 
-The most powerful method for creating networks come from programming languages such as R, Python, and Javascript. These languages allow you to control various algorithmic and aesthetic aspects of network visualizations. These include powerful libraries such as igraph and sne. We won't be digging into any languages during this workshop, but there are many resources available for getting started with programmatic approaches to visualization. See the [resources page](resources.html) for more.
-
-### R
-
-### Javascript / D3.js
+The most powerful method for creating networks come from programming languages such as R, Python, and Javascript. These languages allow you to control various algorithmic and aesthetic aspects of network visualizations. These include powerful libraries such as `igraph` and `sne`. We won't be digging into any languages during this workshop, but there are many resources available for getting started with programmatic approaches to visualization. See the [resources page](resources.html) for more.
 
 ## Next steps
 
